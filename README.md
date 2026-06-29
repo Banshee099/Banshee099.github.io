@@ -1,8 +1,3 @@
----
-title: Manas Bisht
-description: CTO & Founding Engineer — secure, AI-powered enterprise software
----
-
 <div align="center">
 
 # Manas Bisht
