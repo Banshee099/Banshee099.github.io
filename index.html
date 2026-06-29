@@ -11,7 +11,7 @@
 <meta name="keywords" content="Manas Bisht, CTO, Founding Engineer, Immunefiles, AI engineer, LLM, RAG, machine learning, CUDA, Kubernetes, FastAPI, enterprise software, Noida India" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <link rel="canonical" href="https://banshee099.site/" />
-<meta name="theme-color" content="#090B11" />
+<meta name="theme-color" content="#181818" />
 
 <!-- Icons -->
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -53,18 +53,18 @@
 
 <style>
 :root {
-  --bg:        #090B11;
-  --surface:   #10141D;
-  --surface-2: #181E2A;
-  --line:      #283143;
-  --line-soft: #1A2130;
-  --text:      #ECEFF6;
-  --muted:     #909AAD;
-  --faint:     #5C6678;
-  --accent:    #F5A623;
-  --accent-hi: #FFC15E;
-  --accent-2:  #6E7BFF;
-  --accent-2hi:#9AA4FF;
+  --bg:        #181818;
+  --surface:   #1F1F1F;
+  --surface-2: #292929;
+  --line:      #3A3A3A;
+  --line-soft: #2B2B2B;
+  --text:      #F7F7F7;
+  --muted:     #ADADB5;
+  --faint:     #97979F;
+  --accent:    #FF5722;
+  --accent-hi: #FFEB3B;
+  --accent-2:  #673AB7;
+  --accent-2hi:#7E57C2;
   --ok:        #3FB68B;
 
   --display: 'Space Grotesk', sans-serif;
@@ -94,9 +94,9 @@ body::before {
   inset: 0;
   z-index: 0;
   background:
-    radial-gradient(1000px 520px at 8% -10%, rgba(245,166,35,0.11), transparent 60%),
-    radial-gradient(900px 600px at 100% -5%, rgba(110,123,255,0.10), transparent 58%),
-    radial-gradient(700px 520px at 50% 110%, rgba(110,123,255,0.05), transparent 60%);
+    radial-gradient(1000px 520px at 8% -10%, rgba(255,87,34,0.12), transparent 60%),
+    radial-gradient(900px 600px at 100% -5%, rgba(103,58,183,0.18), transparent 58%),
+    radial-gradient(700px 520px at 50% 110%, rgba(103,58,183,0.10), transparent 60%);
   pointer-events: none;
 }
 
@@ -110,7 +110,7 @@ body::before {
 
 a { color: inherit; text-decoration: none; }
 
-::selection { background: rgba(245,166,35,0.28); color: #fff; }
+::selection { background: rgba(255,87,34,0.32); color: #fff; }
 
 /* ---------- top bar ---------- */
 .topbar {
@@ -118,7 +118,7 @@ a { color: inherit; text-decoration: none; }
   top: 0;
   z-index: 20;
   backdrop-filter: blur(10px);
-  background: rgba(11,14,20,0.72);
+  background: rgba(24,24,24,0.72);
   border-bottom: 1px solid var(--line-soft);
 }
 .topbar .row {
@@ -170,10 +170,10 @@ a { color: inherit; text-decoration: none; }
   position: absolute;
   left: 0; bottom: 0;
   width: 0; height: 1px;
-  background: var(--accent);
+  background: var(--accent-hi);
   transition: width .2s ease;
 }
-.nav a:hover { color: var(--text); }
+.nav a:hover { color: var(--accent-hi); }
 .nav a:hover::after { width: 100%; }
 .nav .dot { margin-left: 2px; }
 @keyframes pulse {
@@ -270,15 +270,15 @@ h1.headline em {
   color: var(--text);
   transition: border-color .2s, background .2s, color .2s, transform .15s;
 }
-.btn:hover { border-color: var(--faint); transform: translateY(-2px); }
+.btn:hover { border-color: var(--accent-hi); color: var(--accent-hi); transform: translateY(-2px); }
 .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .btn.primary {
   background: var(--accent);
-  color: #1a1206;
+  color: #181818;
   border-color: var(--accent);
   font-weight: 600;
 }
-.btn.primary:hover { background: var(--accent-hi); border-color: var(--accent-hi); }
+.btn.primary:hover { background: var(--accent-hi); border-color: var(--accent-hi); color: #181818; }
 
 /* ---------- sections ---------- */
 section { padding: 64px 0; border-top: 1px solid var(--line-soft); scroll-margin-top: 70px; }
@@ -411,7 +411,7 @@ section { padding: 64px 0; border-top: 1px solid var(--line-soft); scroll-margin
   padding: 24px;
   transition: border-color .2s, transform .2s;
 }
-.scard:hover { border-color: var(--faint); transform: translateY(-3px); }
+.scard:hover { border-color: var(--accent-hi); transform: translateY(-3px); }
 .scard h3 {
   font-family: var(--mono);
   font-size: 0.74rem;
@@ -442,7 +442,7 @@ section { padding: 64px 0; border-top: 1px solid var(--line-soft); scroll-margin
   flex-direction: column;
   transition: border-color .2s, transform .2s;
 }
-.pcard:hover { border-color: var(--faint); transform: translateY(-3px); }
+.pcard:hover { border-color: var(--accent-hi); transform: translateY(-3px); }
 .pthumb {
   display: block;
   width: 100%;
@@ -512,7 +512,7 @@ section { padding: 64px 0; border-top: 1px solid var(--line-soft); scroll-margin
   transition: border-color .2s, transform .2s;
 }
 .blog-card .go { margin-left: auto; }
-.blog-card:hover { border-color: var(--faint); transform: translateY(-3px); }
+.blog-card:hover { border-color: var(--accent-hi); transform: translateY(-3px); }
 .bthumb {
   flex-shrink: 0;
   width: 96px;
@@ -548,7 +548,7 @@ section { padding: 64px 0; border-top: 1px solid var(--line-soft); scroll-margin
   border-radius: 9px;
   transition: border-color .2s, background .2s;
 }
-.blog-card:hover .go { border-color: var(--accent); }
+.blog-card:hover .go { border-color: var(--accent-hi); color: var(--accent-hi); }
 
 /* ---------- footer ---------- */
 footer { padding: 64px 0 80px; border-top: 1px solid var(--line-soft); scroll-margin-top: 70px; }
@@ -559,8 +559,8 @@ footer h2 {
   letter-spacing: -0.02em;
   margin-bottom: 28px;
 }
-footer h2 a { color: var(--accent); border-bottom: 2px solid transparent; transition: border-color .2s; }
-footer h2 a:hover { border-color: var(--accent); }
+footer h2 a { color: var(--accent); border-bottom: 2px solid transparent; transition: border-color .2s, color .2s; }
+footer h2 a:hover { border-color: var(--accent-hi); color: var(--accent-hi); }
 .foot-meta {
   margin-top: 40px;
   display: flex;
@@ -572,7 +572,7 @@ footer h2 a:hover { border-color: var(--accent); }
   color: var(--faint);
   letter-spacing: 0.02em;
 }
-.foot-meta a:hover { color: var(--text); }
+.foot-meta a:hover { color: var(--accent-hi); }
 
 /* ---------- reveal animation ---------- */
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
@@ -888,7 +888,7 @@ footer h2 a:hover { border-color: var(--accent); }
     <div class="wrap">
       <h2>Let's build something that ships.<br /><a href="mailto:manasbisht2507@gmail.com">manasbisht2507@gmail.com</a></h2>
       <div class="foot-meta">
-        <span>© 2026 Manas Bisht — Noida, India</span>
+        <span>2026 Manas Bisht — Noida, India</span>
         <span>
           <a href="mailto:manasbisht2507@gmail.com">Email</a> ·
           <a href="https://www.linkedin.com/in/manas-bisht-402326202/" target="_blank" rel="noopener">LinkedIn</a> ·

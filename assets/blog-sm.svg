@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Streaming Multiprocessor">
   <defs>
     <linearGradient id="sm-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#181E2A"/>
-      <stop offset="1" stop-color="#0C1019"/>
+      <stop offset="0" stop-color="#292929"/>
+      <stop offset="1" stop-color="#141414"/>
     </linearGradient>
     <linearGradient id="sm-indigo" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#9AA4FF"/>
-      <stop offset="1" stop-color="#6E7BFF"/>
+      <stop offset="0" stop-color="#B39DDB"/>
+      <stop offset="1" stop-color="#7E57C2"/>
     </linearGradient>
   </defs>
   <rect width="200" height="200" rx="12" fill="url(#sm-bg)"/>
-  <rect x="0.5" y="0.5" width="199" height="199" rx="12" fill="none" stroke="#283143"/>
+  <rect x="0.5" y="0.5" width="199" height="199" rx="12" fill="none" stroke="#3A3A3A"/>
 
   <!-- SM block with CUDA cores -->
-  <rect x="34" y="34" width="132" height="92" rx="8" fill="#10141D" stroke="#6E7BFF" opacity="0.9"/>
-  <g fill="#6E7BFF" opacity="0.85">
+  <rect x="34" y="34" width="132" height="92" rx="8" fill="#1F1F1F" stroke="#7E57C2" opacity="0.9"/>
+  <g fill="#7E57C2" opacity="0.85">
     <rect x="46" y="46" width="14" height="14" rx="2"/>
     <rect x="64" y="46" width="14" height="14" rx="2"/>
     <rect x="82" y="46" width="14" height="14" rx="2"/>
@@ -22,12 +22,12 @@
     <rect x="118" y="46" width="14" height="14" rx="2"/>
     <rect x="136" y="46" width="14" height="14" rx="2"/>
   </g>
-  <g fill="#F5A623">
+  <g fill="#FF5722">
     <rect x="46" y="64" width="14" height="14" rx="2"/>
     <rect x="82" y="64" width="14" height="14" rx="2"/>
     <rect x="118" y="64" width="14" height="14" rx="2"/>
   </g>
-  <g fill="#2E394F">
+  <g fill="#3A3A3A">
     <rect x="64" y="64" width="14" height="14" rx="2"/>
     <rect x="100" y="64" width="14" height="14" rx="2"/>
     <rect x="136" y="64" width="14" height="14" rx="2"/>
@@ -36,5 +36,5 @@
   <rect x="46" y="92" width="104" height="10" rx="3" fill="#3FB68B" opacity="0.55"/>
 
   <text x="100" y="150" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-size="30" font-weight="700" fill="url(#sm-indigo)">SM</text>
-  <text x="100" y="170" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="9.5" fill="#909AAD" letter-spacing="2">STREAMING MULTIPROCESSOR</text>
+  <text x="100" y="170" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="9.5" fill="#ADADB5" letter-spacing="2">STREAMING MULTIPROCESSOR</text>
 </svg>
