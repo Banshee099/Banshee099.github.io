@@ -471,6 +471,19 @@ section { padding: 64px 0; border-top: 1px solid var(--line-soft); scroll-margin
 .pcard p { color: var(--muted); font-size: 0.95rem; margin-bottom: 16px; }
 .pcard p b { color: var(--text); font-weight: 600; }
 .pcard .chips { margin-top: auto; }
+.prepo {
+  margin-top: 16px;
+  width: fit-content;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border-bottom: 1px solid transparent;
+  transition: color .2s, border-color .2s;
+}
+.prepo:hover { color: var(--accent-hi); border-color: var(--accent-hi); }
 
 /* ---------- credentials ---------- */
 .creds { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
@@ -788,6 +801,7 @@ footer h2 a:hover { border-color: var(--accent-hi); color: var(--accent-hi); }
           <div class="chips">
             <span class="chip">PyTorch</span><span class="chip">CNN</span><span class="chip">TinyVGG</span><span class="chip">FashionMNIST</span><span class="chip">Computer Vision</span>
           </div>
+          <a class="prepo" href="https://github.com/Banshee099/TinyVGG" target="_blank" rel="noopener">View repository ↗</a>
         </div>
 
         <div class="pcard">
