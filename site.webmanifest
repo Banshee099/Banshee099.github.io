@@ -1,0 +1,13 @@
+{
+  "name": "Manas Bisht — CTO & Founding Engineer",
+  "short_name": "Manas Bisht",
+  "description": "Building secure, AI-powered enterprise software at Immunefiles.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090B11",
+  "theme_color": "#090B11",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
+  ]
+}
