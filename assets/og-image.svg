@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Manas Bisht — CTO &amp; Founding Engineer">
   <defs>
     <linearGradient id="og-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#141414"/>
-      <stop offset="1" stop-color="#121212"/>
+      <stop offset="0" stop-color="#161616"/>
+      <stop offset="1" stop-color="#141414"/>
     </linearGradient>
     <radialGradient id="og-amber" cx="0.12" cy="0.0" r="0.8">
-      <stop offset="0" stop-color="#FF5722" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#FF5722" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FF6F61" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#FF6F61" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="og-indigo" cx="1" cy="0" r="0.8">
-      <stop offset="0" stop-color="#7E57C2" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#7E57C2" stop-opacity="0"/>
+      <stop offset="0" stop-color="#DAA520" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#DAA520" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="og-accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FF8A65"/>
-      <stop offset="1" stop-color="#FF5722"/>
+      <stop offset="0" stop-color="#FF8F7F"/>
+      <stop offset="1" stop-color="#FF6F61"/>
     </linearGradient>
   </defs>
 
@@ -23,7 +23,7 @@
   <rect width="1200" height="630" fill="url(#og-indigo)"/>
 
   <!-- faint grid -->
-  <g stroke="#3A3A3A" stroke-width="1" opacity="0.35">
+  <g stroke="#3D3D3D" stroke-width="1" opacity="0.35">
     <line x1="0" y1="157" x2="1200" y2="157"/>
     <line x1="0" y1="472" x2="1200" y2="472"/>
     <line x1="300" y1="0" x2="300" y2="630"/>
@@ -32,20 +32,20 @@
 
   <!-- favicon-style mark -->
   <g transform="translate(80,80)">
-    <rect width="84" height="84" rx="18" fill="#1F1F1F" stroke="#3A3A3A"/>
-    <path d="M24 27 L41 44 L24 61" fill="none" stroke="#FF5722" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="48" y="54" width="22" height="7" rx="3.5" fill="#FF5722"/>
+    <rect width="84" height="84" rx="18" fill="#232323" stroke="#3D3D3D"/>
+    <path d="M24 27 L41 44 L24 61" fill="none" stroke="#FF6F61" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="48" y="54" width="22" height="7" rx="3.5" fill="#FF6F61"/>
   </g>
 
   <!-- prompt line -->
-  <text x="82" y="320" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="26" fill="#FF5722">manas@immunefiles:~$ whoami</text>
+  <text x="82" y="320" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="26" fill="#FF6F61">manas@immunefiles:~$ whoami</text>
 
   <!-- headline -->
-  <text x="80" y="406" font-family="'Space Grotesk', system-ui, sans-serif" font-size="76" font-weight="700" fill="#F7F7F7">Manas Bisht</text>
-  <text x="80" y="476" font-family="'Space Grotesk', system-ui, sans-serif" font-size="40" font-weight="600" fill="#F7F7F7">CTO &amp; Founding Engineer <tspan fill="#FF5722">· Immunefiles</tspan></text>
+  <text x="80" y="406" font-family="'Space Grotesk', system-ui, sans-serif" font-size="76" font-weight="700" fill="#F5E8D8">Manas Bisht</text>
+  <text x="80" y="476" font-family="'Space Grotesk', system-ui, sans-serif" font-size="40" font-weight="600" fill="#F5E8D8">CTO &amp; Founding Engineer <tspan fill="#FF6F61">· Immunefiles</tspan></text>
 
   <!-- subline -->
-  <text x="82" y="540" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="24" fill="#ADADB5">Secure, AI-powered enterprise software · Noida, India</text>
+  <text x="82" y="540" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="24" fill="#B3A795">Secure, AI-powered enterprise software · Noida, India</text>
 
   <!-- accent rule -->
   <rect x="82" y="566" width="220" height="4" rx="2" fill="url(#og-accent)"/>
